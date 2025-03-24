@@ -6,23 +6,13 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-// Settings holds configurable parameters.
-type Settings struct {
-	APIKey            string            `yaml:"apiKey"`
-	RateLimit         int               `yaml:"rateLimit"`
-	DefaultOutputDir  string            `yaml:"defaultOutputDir"`
-	DefaultResultsDir string            `yaml:"defaultResultsDir"`
-	KeyBindings       map[string]string `yaml:"keyBindings"`
-}
-
 func LoadSettings(path string) (*Settings, error) {
 	data, err := ioutil.ReadFile(path)
 	if err != nil {
 		return nil, err
 	}
 	var s Settings
-	err = yaml.Unmarshal(data, &s)
-	if err != nil {
+	if err = yaml.Unmarshal(data, &s); err != nil {
 		return nil, err
 	}
 	return &s, nil
@@ -34,4 +24,28 @@ func SaveSettings(path string, s *Settings) error {
 		return err
 	}
 	return ioutil.WriteFile(path, data, 0644)
+}
+
+func LoadClusters(path string) (*ClustersConfig, error) {
+	data, err := ioutil.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	var cc ClustersConfig
+	if err := yaml.Unmarshal(data, &cc); err != nil {
+		return nil, err
+	}
+	return &cc, nil
+}
+
+func LoadTemplates(path string) (*TemplatesConfig, error) {
+	data, err := ioutil.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	var tc TemplatesConfig
+	if err := yaml.Unmarshal(data, &tc); err != nil {
+		return nil, err
+	}
+	return &tc, nil
 }

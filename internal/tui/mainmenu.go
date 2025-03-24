@@ -7,14 +7,7 @@ import (
 func NewMainMenu(app *App) tview.Primitive {
 	menu := tview.NewList().ShowSecondaryText(false)
 	menu.AddItem("Generate CSV from Templates", "", '1', func() {
-		// TODO: Implement CSV generation UI.
-		modal := tview.NewModal().
-			SetText("CSV Generation not implemented yet.").
-			AddButtons([]string{"OK"}).
-			SetDoneFunc(func(buttonIndex int, buttonLabel string) {
-				app.SwitchToMainMenu()
-			})
-		app.tviewApp.SetRoot(modal, true)
+		ShowGenerateCSVFlow(app)
 	})
 	menu.AddItem("Browse Generated CSV Files", "", '2', func() {
 		// TODO: Implement CSV browsing UI.
