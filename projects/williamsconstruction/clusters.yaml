@@ -1,0 +1,95 @@
+clusters:
+  Transaction/Intent:
+    - sell
+    - rent
+    - lease
+    - list
+    - find
+    - purchase
+    - finance
+    - invest in
+    - own
+  Adjective/Descriptor:
+    - affordable
+    - spacious
+    - newly renovated
+    - luxury
+    - move in ready
+    - rustic
+    - new construction
+  Style/Category:
+    - luxury
+    - modern
+    - waterfront
+    - lakefront
+    - countryside
+  Property Type:
+    - House
+    - Condo
+    - Townhouse
+    - Apartment
+    - Duplex
+    - Cabin
+    - Log Cabin
+    - Lake House
+    - Cottage
+  Connectors A:
+    - with
+  Beds/Features:
+    - studio
+    - "1 bedroom"
+    - "2 bedroom"
+    - "3 bedroom"
+    - "4 bedroom"
+    - "5 bedroom"
+    - pool
+    - garage
+    - "large backyard"
+    - "fenced yard"
+    - lake
+    - "boat access"
+    - "lake access"
+  Connectors B:
+    - in
+    - near
+    - "close to"
+    - at
+  Location Modifier:
+    - Indiana
+    - "Brown County, Indiana"
+    - "Brown County"
+    - "Brown County Lakes"
+    - "Brown County Lake"
+    - "Nashville, Indiana"
+    - "Cordry‑Sweetwater"
+    - "Cordry‑Sweetwater Region"
+    - "Cordry Lake"
+    - "Sweetwater Lake"
+    - Sweetwater
+    - "Bean Blossom"
+    - "Gnaw Bone"
+    - Helmsburg
+    - Story
+    - Trevlac
+    - "Van Buren Township"
+    - "Hamblen Township"
+    - "Jackson Township"
+    - "Washington Township"
+    - Lake
+    - Lakes
+  Connectors C:
+    - for
+  Use Case:
+    - investment
+    - retirement
+    - "vacation home"
+    - "house flipping"
+    - "short term rental"
+    - "second home"
+    - "long term rental"
+    - "first time buyers"
+    - "summer home"
+    - "vacation getaway"
+    - airbnb
+    - "airbnb rental"
+    - sale

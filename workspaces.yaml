@@ -1,0 +1,7 @@
+workspaces:
+  - name: williamsconstruction
+    clustersFile: "projects/williamsconstruction/clusters.yaml"
+    templatesFile: "projects/williamsconstruction/templates.yaml"
+  - name: otherclient
+    clustersFile: "projects/otherclient/clusters.yaml"
+    templatesFile: "projects/otherclient/templates.yaml"

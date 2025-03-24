@@ -1,0 +1,9 @@
+apiKey: YOUR_DATAFORSEO_API_KEY
+rateLimit: 100
+defaultOutputDir: output
+defaultResultsDir: results
+keyBindings:
+    browseCSV: b
+    generateCSV: g
+    help: h
+    viewLogs: l

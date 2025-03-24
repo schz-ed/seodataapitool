@@ -1,0 +1,9 @@
+templates:
+  - name: Template1_Property_Location
+    sequence:
+      - "Property Type"
+      - "Location Modifier"
+  - name: Template2_Transaction_Property
+    sequence:
+      - "Transaction/Intent"
+      - "Property Type"

@@ -1,0 +1,15 @@
+clusters:
+  Transaction/Intent:
+    - buy
+    - rent
+    - lease
+  Adjective/Descriptor:
+    - economical
+    - spacious
+  Property Type:
+    - Office
+    - Retail Space
+  Location Modifier:
+    - New York
+    - "New York City"
+    - Brooklyn

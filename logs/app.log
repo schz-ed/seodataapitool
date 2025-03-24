@@ -1,0 +1,9 @@
+2025/03/24 16:19:16 main.go:22: open configs/workspaces.yaml: The system cannot find the path specified.
+2025/03/24 16:24:01 main.go:22: open configs/workspaces.yaml: The system cannot find the path specified.
+2025/03/24 16:28:59 workspace.go:15: Selected workspace: williamsconstruction
+2025/03/24 16:29:37 workspace.go:15: Selected workspace: otherclient
+2025/03/24 16:29:43 workspace.go:15: Selected workspace: williamsconstruction
+2025/03/24 16:31:46 workspace.go:15: Selected workspace: williamsconstruction
+2025/03/24 16:31:51 workspace.go:15: Selected workspace: williamsconstruction
+2025/03/24 16:41:04 workspace.go:15: Selected workspace: williamsconstruction
+2025/03/24 16:41:39 workspace.go:15: Selected workspace: williamsconstruction

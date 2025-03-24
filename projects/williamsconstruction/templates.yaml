@@ -1,0 +1,48 @@
+templates:
+  - name: Template1_Property_ConnectorsC_UseCase
+    sequence:
+      - "Property Type"
+      - "Connectors C"
+      - "Use Case"
+  - name: Template2_Transaction_Property
+    sequence:
+      - "Transaction/Intent"
+      - "Property Type"
+  - name: Template3_Category_Property
+    sequence:
+      - "Style/Category"
+      - "Property Type"
+  - name: Template4_Property_ConnectorsA_Features
+    sequence:
+      - "Property Type"
+      - "Connectors A"
+      - "Beds/Features"
+  - name: Template5_Adjective_Property
+    sequence:
+      - "Adjective/Descriptor"
+      - "Property Type"
+  - name: Template6_Property_ConnectorsB_Location
+    sequence:
+      - "Property Type"
+      - "Connectors B"
+      - "Location Modifier"
+  - name: Template7_Property_ConnectorsA_Features_ConnectorsB_Location
+    sequence:
+      - "Property Type"
+      - "Connectors A"
+      - "Beds/Features"
+      - "Connectors B"
+      - "Location Modifier"
+  - name: Template8_Property_ConnectorsB_Location_ConnectorsC_UseCase
+    sequence:
+      - "Property Type"
+      - "Connectors B"
+      - "Location Modifier"
+      - "Connectors C"
+      - "Use Case"
+  - name: Template9_Transaction_Property_ConnectorsB_Location
+    sequence:
+      - "Transaction/Intent"
+      - "Property Type"
+      - "Connectors B"
+      - "Location Modifier"
